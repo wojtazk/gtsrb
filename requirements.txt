@@ -1,0 +1,16 @@
+# Etap 1–2 (notatnik 01)
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+scikit-learn>=1.4
+pillow>=10.0
+tqdm>=4.66
+notebook>=7.0
+nbdime>=4.0
+
+# Kolejne etapy (odkomentować przy notatniku 03 i dalej)
+# torch>=2.2
+# torchvision>=0.17
+# torchattacks>=3.5
+# grad-cam>=1.5
+# imagecorruptions>=1.1

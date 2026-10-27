@@ -1,0 +1,29 @@
+# Dane (każdy trzyma lokalnie w data/GTSRB) i pliki pośrednie – nie trzymamy w repo
+data/raw/
+data/GTSRB/
+data/processed/*
+!data/processed/.gitkeep
+*.parquet
+*.npy
+*.npz
+
+# Wagi modeli
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
